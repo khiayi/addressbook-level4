@@ -101,7 +101,7 @@ public class AddressBookParser {
 
         case ListCommand.COMMAND_ALIAS:
             return new ListCommand();
-            
+
         case UndoCommand.COMMAND_ALIAS:
             return new UndoCommand();
 
